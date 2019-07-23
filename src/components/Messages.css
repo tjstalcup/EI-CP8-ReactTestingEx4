@@ -1,0 +1,19 @@
+.Messages {
+  border: 2px solid steelblue;
+  background-color: lightgray;
+  display: inline-block;
+  padding: 10px 15px;
+  position: relative;
+  margin: 10px 25px;
+  text-transform: capitalize;
+}
+
+.Messages .badge {
+  position: absolute;
+  background-color: steelblue;
+  padding: 5px 10px;
+  border-radius: 25%;
+  top: -20px;
+  right: -20px;
+  color: white;
+}
